@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Haukai Restaurant</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@400;700&family=Poppins:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- footer social -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+    </head>
+
+<header>
+   <!--BANNER-->
+ <!--logo in text-->
+<a href="index.html" class="logo">
+  <span>HAUKAI</span>RESTAURANT
+</a>
+
+<nav>
+ 
+  <div class="banner">
+    <!--images banner-->
+    <img src="images/img_logo.png" class="img_logo" alt="Haukai Restaurant logo">
+  </div>
+  <!--NAVIGATION BAR-->
+  <ul>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="menu.html">Menu</a></li>
+            <li class="current"><a href="reservation.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#menu">Staff</a></li>
+            <!-- Add links for other pages -->
+        </ul>
+    </nav>
+  </ul>
+</nav>
+</header>
+
+
+<body class="home">
+  <div class="wrapper"></div>
+  
+    <!-- HERO-->
+
+  <!--MAIN BODY OF PAGE-->
+  <main>
+   <!-- Banner -->
+   <div class="banner text">
+    <h1>Book a table now</h1>
+</div>
+<div> <h3> We are currently open Wednesday - Sunday from 4pm till 10pm.</h3></p></div>
+
+<!-- Reservation Form -->
+<div class="form-container">
+    <form id="reservations-form" method="POST" onsubmit="showReservationMessage()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" pattern="[0-9]+" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" min="2024-01-18" max="2024-12-31" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" min="16:00" max="22:00" required>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        <br>
+        <br>
+        <button type="submit">Submit Reservation</button>
+    </form>
+</div>
+<br>
+<br>
+
+<div class="">
+  <img src="images/pexels-andrea-piacquadio-3770096.jpg"class="img_restaurant" alt="Haukai Restaurant">
+</div>
+<p><h3> Come try our Maori fusion delight and let your taste buds be tantilised!</h3></p>
+</main>
+
+  <!--FOOTER-->
+  <footer>
+    <div class="footer-container">
+      <!--logo text-container-->
+      <div class="footer-logo">
+        <a href="#"><span>haukai</span>restaurant</a>
+      
+        <!--social-->
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-bottom">
+          <p> Open: Wednesday to Sunday 4pm-10pm</p>
+          
+          <p> Venue: 123 Cook Street, Auckland, NZ</p>
+         </div>
+      </div>
+      
+      
+      <!--links-->
+      <div class="footer-links">
+        <strong>Contact</strong>
+        <ul>
+          <li><a href="#">Phone : +64 9 855 9999</a></li>
+          <li><a href="#">Email : info@thehaukai.com</a></li>
+        </ul>
+        <div class="subfooter">
+          <p>&copy; The Haukai Restaurant</p>
+          
+          <a href="privacy.html">Privacy Policy</a> |
+          <a href="terms.html">Terms of Use</a>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  
+<!-- Reference the external JavaScript file -->
+<script src="js/script.js"></script>
+   
+  
+</body>
+
+</html>

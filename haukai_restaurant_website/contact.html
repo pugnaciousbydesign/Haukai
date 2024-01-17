@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Haukai Restaurant</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@400;700&family=Poppins:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- footer social -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+
+<header>
+ <!--logo in text-->
+<a href="index.html" class="logo">
+  <span>HAUKAI</span>RESTAURANT
+</a>
+
+<nav>
+ 
+  <!--banner-->
+  <div class="banner">
+    <!--images banner-->
+    <img src="images/img_logo.png" class="img_logo" alt="Haukai Restaurant logo">
+  </div>
+  <ul>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+            <li><a href="#menu">Staff</a></li>
+            <!-- Add links for other pages -->
+        </ul>
+    </nav>
+  </ul>
+</nav>
+</header>
+<body>
+  <div class="wrapper"></div>
+<!-- Home Page Content -->
+
+  
+  <!--MAIN BODY OF PAGE-->
+  <main>
+
+  <!--main content-->
+  <div class="banner text">
+    <h1>Contact us</h1>
+  </div>
+    <p>If you have any questions, comments, feedback or would like make a phone booking, please don't hesitate to get in touch with us. </p>
+    <h2>Haukai Team</h2>
+    <ul>
+      <li><strong>Phone:</strong> +64 9 855 9999</li>
+      <li><strong>Email:</strong> info@thehaukai.com</li>
+      <li><strong>Address:</strong> 123 Cook Street, Auckland, NZ</li>
+      <li><strong>Hours:</strong> Wednesday to Sunday 4pm-10pm</li>
+      
+    </ul>
+
+    <!--Feedback form--> 
+    <h3>Contact Form</h3>
+    <div class="form-container">
+      <form id="feedback-form" method="POST" onsubmit="showMessage()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+ <br>
+  <section>
+    <h3>Where to find us?</h3>
+    <div class="map-container">
+      <iframe src="https://www.google.co.nz/maps/embed?pb=!1m18!1m12!1m3!1d3192.739837994891!2d174.7549444!3d-36.8499625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47ed9db1e4a1%3A0xbac202feef52c9a8!2s123%20Cook%20Street%2C%20Auckland%20CBD%2C%20Auckland%201010!5e0!3m2!1sen!2snz!4v1620952852155!5m2!1sen!2snz" style="border:0; width: 100%; height: 500px;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  
+  </main>
+
+
+<!--Reservations link-->
+<div class="sectionLink">
+  <h2>Make a reservation now</h2>
+  <p> Come and enjoy a night with us:</p>
+  <div class="myButton">
+    <a href="reservation.html">Book a table now</a>
+ 
+</div>
+</div>
+
+<br>
+<br>
+ <!--FOOTER-->
+ <footer>
+  <div class="footer-container">
+    <!--logo text-container-->
+    <div class="footer-logo">
+      <a href="#"><span>haukai</span>restaurant</a>
+    
+      <!--social-->
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="footer-bottom">
+        <p> Open: Wednesday to Sunday 4pm-10pm</p>
+        
+        <p> Venue: 123 Cook Street, Auckland, NZ</p>
+       </div>
+    </div>
+    
+    
+    <!--links-->
+    <div class="footer-links">
+      <strong>Contact</strong>
+      <ul>
+        <li><a href="#">Phone : +64 9 855 9999</a></li>
+        <li><a href="#">Email : info@thehaukai.com</a></li>
+      </ul>
+      <div class="subfooter">
+        <p>&copy; The Haukai Restaurant</p>
+        
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Use</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+   <!-- Reference the external JavaScript file -->
+   <script src="js/script.js"></script>
+   
+</body>
+</html>
